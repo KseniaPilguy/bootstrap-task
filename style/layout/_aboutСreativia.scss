@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url(../../fonts/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url(../../fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url(../../fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url(../../fonts/Lato-Regular.ttf);
+}
+
+.aboutCreativia {
+    max-width: 1400px;
+    width: 100%;
+    height: 1178px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    margin-left: -700px;
+
+    h2 {
+        margin: 100px auto 50px;
+        font: 30px 'Raleway-Bold', sans-serif;
+        color: #262626;
+        text-align: center;
+
+        span {
+            color: #ff0036; 
+        }
+    }
+
+    p {
+        font: 16px 'Lato-Bold', sans-serif;
+        color: #505050;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    span {
+        color: #ff0036; 
+    }       
+
+    .description {
+        padding-left: 117px;
+
+        p {
+            font: 16px 'Lato-Bold', sans-serif;
+            text-align: justify;
+            color: #505050;
+            line-height: 1.5;
+            margin-bottom: 42px;
+        }
+    }
+
+    .card {
+        border-radius: 0;
+        margin-bottom: 9px;
+
+        .collapse {
+            height: 40px;
+        }
+
+        .show {
+            height: 79px;
+        }
+
+        .card-header {
+            padding: 0;
+            height: 44px;
+
+            
+            .btn-link {
+                padding-left: 80px;
+                text-decoration: none;
+                font: 20px 'Raleway-Medium', sans-serif;
+                color: #fd315d; 
+
+                &::before {
+                    content: '';
+                    display: block;
+                    width: 58px;
+                    height: 43px;
+                    border: 1px solid #e7e7e7;
+                    border-top: none;
+                    border-bottom: none;
+                    border-top: none;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background: url(../../img/minus.png) no-repeat center center;
+                }
+            }
+
+            .collapsed {
+                color: #262626; 
+
+
+                &::before {
+                    content: '';
+                    display: block;
+                    width: 58px;
+                    height: 43px;
+                    border: 1px solid #e7e7e7;
+                    border-top: none;
+                    border-bottom: none;
+                    border-top: none;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background: url(../../img/plus.png) no-repeat center center;
+                }
+            }
+
+        }
+    }
+
+    .card-body {
+        font: 14px 'Lato-Regular', sans-serif;
+        color: #505050;
+        line-height: 1.2;
+        padding: 15px;
+        text-align: justify;
+    }
+
+
+    .gallery {
+        margin-top: 15px;
+
+        .left {
+            display: block;
+            position: absolute;
+            z-index: 1;
+            top: 18px;
+        }
+        .center {
+            display: block;
+            position: absolute;
+            z-index: 3;
+            left: 80px;
+        }
+        .right {
+            display: block;
+            position: absolute;
+            z-index: 2;
+            left: 220px;
+            top: 18px;
+        }
+
+    }
+
+    .line {
+
+        img {
+        display: block;
+        margin: 100px auto;
+        }
+    }
+
+    .info {
+
+        img {
+            display: block;
+            margin: 0 auto 35px;
+        }
+
+        h3 {
+            text-transform: uppercase;
+            font: 20px 'Raleway-Medium', sans-serif;
+            color: #262626;
+            text-align: center;
+        }
+
+        p {
+            font: 14px 'Lato-Regular', sans-serif;
+            color: #737373;
+            line-height: 1.4;
+        }
+    }
+}

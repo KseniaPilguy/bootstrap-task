@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url(../../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url(../../fonts/Lato-Bold.ttf);
+}
+
+.mini-info {
+    width: 100%;
+    height: 268px;
+    background-color: #262626;
+    text-align: center;
+
+    h2 {
+        font: 30px 'Raleway-Bold', sans-serif;
+        color: #ffffff;
+        text-align: center;
+        margin: 0 auto 27px;
+        padding-top: 100px;
+    }
+
+    ul {
+        display: block;
+        text-align: center;
+
+        li {
+            display: inline-block;
+            list-style: none;
+            margin-right: 22px;
+            font: 16px 'Lato-Bold', sans-serif;
+            color: #a4a4a4;
+            text-transform: uppercase;
+
+            span {
+                color: #f10335;
+            }
+
+        }
+    }
+}
